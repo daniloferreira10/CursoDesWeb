@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.container{
+ position:absolute;
+ height: 300px;
+ left: 300px;
+ bottom:200px;
+ border:5px solid rgb(128, 136, 116);
+ background-color: blueviolet;
+ 
+}
+h1{
+    text-align: center;
+    font-size:15px;
+}
+

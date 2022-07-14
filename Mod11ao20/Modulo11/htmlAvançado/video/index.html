@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+
+    <style>
+        .container{
+            position: relative;
+            width: 640px;
+            height: 360px;
+        }
+
+        .video{
+            width: 100%;
+        }
+
+        .controle {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <video id="video1" class="video" src="icones/videoPexels.mp4">
+        </video>
+
+        <div class="controle">
+         <!--Controle de Voltar-->
+           <img class="btn" onclick="retroceder()" src="icones/streamline-icon-controls-previous@48x48.PNG">
+         <!--Controle de Voltar-->
+           <img class="btn" onclick="diminuir_velocidade()" src="icones/streamline-icon-controls-rewind@48x48.PNG">
+         <!--Controle de Parar-->
+           <img class="btn" onclick="stop()" src="icones/streamline-icon-controls-stop@48x48.PNG">
+         <!--Controle de Play-->
+           <img class="btn" onclick="play()" src="icones/streamline-icon-controls-play@48x48.PNG">
+         <!--Controle de Aumentar a Velocidade-->
+           <img class="btn" onclick="" src="icones/streamline-icon-controls-forward@48x48.PNG">
+         <!--Controle de Avançar-->
+           <img class="btn" onclick="avancar()" src="icones/streamline-icon-controls-next@48x48.PNG">
+
+           
+
+        </div>
+
+    </div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
