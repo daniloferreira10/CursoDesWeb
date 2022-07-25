@@ -1,2 +1,17 @@
 @charset "UTF-8";
 
+p::first-letter {
+    color: red;
+    background-color: black;
+    font-size: 5em;
+    font-family: cursive,sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    content: "";
+    background-image: url('');
+}

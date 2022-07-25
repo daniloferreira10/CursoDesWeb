@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis em CSS</title>
+    <style>
+    :root{
+        --var-color: gray;
+        --quadrado-tamanho:200px;
+        --fonte-tamanho:3em;
+    }
+
+    .p2 {
+        color: var(--var-color);
+        font-size: var(--fonte-tamanho);
+    }
+
+    .p3 {
+        color: var(--var-color);
+        font-size: var(--fonte-tamanho);
+    }
+
+    </style>
+</head>
+<body>
+    <h2 class="h">Título 1</h2>
+    <p class="p1">Parágrafo 1</p>
+    <p class="p2">Parágrafo 2</p>
+    <p class="p3">Parágrafo 3</p>
+    <p class="p4">Parágrafo 4</p>
+    <p class="p5">Parágrafo 5</p>
+
+    <div class="qd1"></div>
+    <div class="qd1"></div>
+    
+</body>
+</html>

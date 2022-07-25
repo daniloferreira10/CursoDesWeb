@@ -4,9 +4,9 @@
 body{
     background-image: url(churras.webp);
     background-repeat:no-repeat;
-    background-size: 100vw;
+    background-size: 100vw 100vh;
     background-color: antiquewhite;
-    
+    font-family: Arial, Helvetica, sans-serif;
     
     padding: 50px;
 }
@@ -29,23 +29,6 @@ input{
     margin-bottom: 10px;
 }
 
-.arespeito {
-    margin: auto;
-    width: 336px;
-    border-radius: 10px;
-    background-image: linear-gradient(to bottom, rgb(248, 105, 39), yellow)
-    
-}
 
-.arespeito > h1 {
-    margin-left: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.arespeito > p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    margin-left: 10px;
-}
 
 
