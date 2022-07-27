@@ -1,0 +1,23 @@
+
+@charset"UTF-8";
+ /* Cria uma função */
+@keyframes mudarWidth {
+    /* Largura inicial */
+    from {width: 50vh;}
+    /* Largura inicial */
+    to {width: 90vh;}
+    /* Cor Inicial */
+    /* from{background-color: red;} */
+    /* Cor Final */
+    to{background-color: blueviolet;}
+}
+
+.box {
+    width: 200px;
+    height: 90vh;
+    background-color: greenyellow;
+    border-style: solid;
+    animation-name: mudarWidth;
+    animation-duration: 4s;
+
+}
