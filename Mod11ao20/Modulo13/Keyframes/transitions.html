@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        div.btn {
+            display: inline-block;
+            padding: 20px;
+            background-color: #428BCA;
+            color: #fff;
+            font-size: 30px;
+            border-radius: 10px;
+
+            /* transition-property: background-color, padding;
+            transition-duration: 1s;
+            transition-delay: 100ms;
+            transition-timing-function: ease; */
+
+            /* ShortHand Transition */
+            transition: background-color 500ms ease-out, padding 800ms;
+        }
+
+        div.btn:hover {
+            background-color: #2248CA;
+            padding-left: 30px;
+            padding-right: 30px;
+       
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="btn">click</div>
+
+</body>
+</html>

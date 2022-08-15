@@ -1,32 +1,42 @@
 
 // Eu resolvi assim !!!
-//var idade = 19;
+// var idade = 19;
 
-//if (idade >= 18)
-  //console.log("pode")
+// if (idade >= 18)
+//   console.log("pode")
 
-//if (idade < 17)
-//console.log("não pode")
-//////////////////////////////////////////
+// if (idade < 17)
+// console.log("não pode")
+
 
 // Radar de velocidade
-//var velocidade = 101;
+// var velocidade = 101;
 
-//if (velocidade > 100) 
-//console.log("O limite da via, foi excedido", "Reduza a velocidade.")
+// if (velocidade > 100) 
+// console.log("O limite da via, foi excedido", "Reduza a velocidade.")
 
-//if (velocidade < 100)
-//console.log("Boa viagem")
-//////////////////////////////////////////////////
-//var nascimento = 2008;
-//var ano = 2022;
-//var idade = (ano - nascimento );
+// if (velocidade < 100)
+// console.log("Boa viagem")
+////////////////////////////////////////////////
+// var nascimento = 2008;
+// var ano = 2022;
+// var idade = (ano - nascimento );
 
-//if (idade >17)
-//console.log("Entrada permitida")
-//else
-//console.log("Proibida a entrada")
+// if (idade >17)
+// console.log("Entrada permitida")
+// else
+// console.log("Proibida a entrada")
 
+var idade = 110;
+
+if (idade >=18 && idade <=110) {
+    console.log("Pode");
+    console.log("Qual o seu pedido?");
+}
+else {
+    console.log("não pode");
+    console.log("Volte futuramente.");
+}
 
 
 
